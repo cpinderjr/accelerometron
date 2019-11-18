@@ -13,6 +13,7 @@
 		71A016CA238308150014F996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A016C8238308150014F996 /* Main.storyboard */; };
 		71A016CC238308170014F996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A016CB238308170014F996 /* Assets.xcassets */; };
 		71A016CF238308170014F996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A016CD238308170014F996 /* LaunchScreen.storyboard */; };
+		71A016D9238310EA0014F996 /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A016D8238310EA0014F996 /* ParallaxCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71A016CB238308170014F996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A016CE238308170014F996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A016D0238308170014F996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A016D8238310EA0014F996 /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		71A016C1238308150014F996 /* accelerometron */ = {
 			isa = PBXGroup;
 			children = (
+				71A016D7238310A80014F996 /* View */,
+				71A016D62383109C0014F996 /* Controller */,
 				71A016C2238308150014F996 /* AppDelegate.swift */,
 				71A016C4238308150014F996 /* SceneDelegate.swift */,
-				71A016C6238308150014F996 /* ListTableViewController.swift */,
 				71A016C8238308150014F996 /* Main.storyboard */,
 				71A016CB238308170014F996 /* Assets.xcassets */,
 				71A016CD238308170014F996 /* LaunchScreen.storyboard */,
 				71A016D0238308170014F996 /* Info.plist */,
 			);
 			path = accelerometron;
+			sourceTree = "<group>";
+		};
+		71A016D62383109C0014F996 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71A016C6238308150014F996 /* ListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71A016D7238310A80014F996 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71A016D8238310EA0014F996 /* ParallaxCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				71A016C7238308150014F996 /* ListTableViewController.swift in Sources */,
 				71A016C3238308150014F996 /* AppDelegate.swift in Sources */,
+				71A016D9238310EA0014F996 /* ParallaxCell.swift in Sources */,
 				71A016C5238308150014F996 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
