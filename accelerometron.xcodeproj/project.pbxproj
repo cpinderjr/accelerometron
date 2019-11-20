@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7186DB86238316D200279FB5 /* Images+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186DB85238316D200279FB5 /* Images+Names.swift */; };
 		71A016C3238308150014F996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A016C2238308150014F996 /* AppDelegate.swift */; };
 		71A016C5238308150014F996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A016C4238308150014F996 /* SceneDelegate.swift */; };
 		71A016C7238308150014F996 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A016C6238308150014F996 /* ListTableViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7186DB85238316D200279FB5 /* Images+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+Names.swift"; sourceTree = "<group>"; };
 		71A016BF238308150014F996 /* accelerometron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accelerometron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A016C2238308150014F996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A016C4238308150014F996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				71A016CB238308170014F996 /* Assets.xcassets */,
 				71A016CD238308170014F996 /* LaunchScreen.storyboard */,
 				71A016D0238308170014F996 /* Info.plist */,
+				7186DB85238316D200279FB5 /* Images+Names.swift */,
 			);
 			path = accelerometron;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				71A016C7238308150014F996 /* ListTableViewController.swift in Sources */,
 				71A016C3238308150014F996 /* AppDelegate.swift in Sources */,
 				71A016D9238310EA0014F996 /* ParallaxCell.swift in Sources */,
+				7186DB86238316D200279FB5 /* Images+Names.swift in Sources */,
 				71A016C5238308150014F996 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
